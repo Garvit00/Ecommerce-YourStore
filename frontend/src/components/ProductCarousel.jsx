@@ -10,7 +10,8 @@ const ProductCarousel = () => {
         return null;
     }
     if (error) {
-        return <Message variant='danger'>{error}</Message>;
+        const errorMessage = error?.data?.message || "Something went wrong!";
+        return <Message variant='danger'>{errorMessage}</Message>;
     }
     
   return  (
