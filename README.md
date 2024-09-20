@@ -54,6 +54,7 @@ To get started with this project, follow the steps below.
    cd ../frontend
    npm install
 4. Create a .env file in the backend directory with the following variables:
+   ```bash
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
    RAZORPAY_KEY_ID=your_razorpay_key_id
