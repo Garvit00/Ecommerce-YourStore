@@ -51,6 +51,27 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.small-carousel {
+  max-width: 70%; /* Adjust the width of the carousel */
+  max-height: 300px; /* Adjust the height of the entire carousel */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.small-carousel img {
+  max-height: 300px; /* Reduce image height */
+  object-fit: cover; /* Make sure the image fits within the dimensions */
+}
+
+.carousel-caption {
+  bottom: 10px; /* Adjust the position of the caption */
+}
+
+.carousel-caption h2 {
+  font-size: 1rem; /* Reduce the font size for captions */
+}
+
+
 .Outofstock{
   color: #d83333;
 }
@@ -72,4 +93,21 @@ table th {
 .custom-button:hover {
   background-color: transparent;
   border: none;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.shippmsg{
+  color:#1f5b83;
+  background-color: #d6eaf8;
+  border-color: #aed6f1;
+  margin-top: 2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border-radius: 0.3rem;
+  
 }
